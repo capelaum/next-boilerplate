@@ -20,6 +20,10 @@ const GlobalStyles = createGlobalStyle`
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
+  :root {
+    --color-primary: #06092b;
+  }
+
 `
 
 export default GlobalStyles
