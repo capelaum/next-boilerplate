@@ -11,13 +11,15 @@
 - [React Testing Library][react-testing-lbrary]
 - [Storybook][storybook]
 - [Next-PWA][next-pwa]
+- [Plop][plop]
 
 [eslint]: https://eslint.org
 [prettier]: https://prettier.io
 [husky]: https://typicode.github.io/husky/#/
 [lint-staged]: https://www.npmjs.com/package/lint-staged
-[styled-components]: https://styled-components.com/
+[styled-components]: https://styled-components.com
 [jest]: https://jestjs.io/pt-BR
 [react-testing-lbrary]: https://testing-library.com/docs/react-testing-library/intro
 [storybook]: https://storybook.js.org/blog/get-started-with-storybook-and-next-js
 [next-pwa]: https://www.npmjs.com/package/next-pwa
+[plop]: https://plopjs.com/documentation
