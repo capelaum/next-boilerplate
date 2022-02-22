@@ -7,11 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings=0",
-    "test": "jest",
-    "test:watch": "yarn jest --watch",
+    "test": "jest --maxWorkers=50%",
+    "test:watch": "yarn jest --watch --maxWorkers=50%",
     "test:ci": "jest --runInBand",
-    "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "postinstall": "husky install",
     "prepare": "husky install"
   },
@@ -31,6 +31,8 @@
   "devDependencies": {
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
     "@testing-library/jest-dom": "^5.16.2",
@@ -49,6 +51,8 @@
     "jest-styled-components": "^7.0.8",
     "lint-staged": "^12.3.3",
     "prettier": "2.5.1",
-    "typescript": "4.5.5"
+    "storybook-addon-next-router": "^3.1.1",
+    "typescript": "4.5.5",
+    "webpack": "^5.69.1"
   }
 }
